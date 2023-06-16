@@ -1,0 +1,93 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* header */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    color:aliceblue;
+    padding: 20px;
+    background: black;
+    box-sizing: border-box;
+}
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+.logo-img{
+    margin-left: 40px;
+}
+.header-menu{
+    flex-grow: 3;
+}
+.menu-item{
+    /* не будет знаков у эл-ов списка */
+    list-style: none;
+}
+.menu-link{
+    text-decoration: none;
+    color:rgb(92, 86, 75);
+}
+
+/* main */
+/* banner */
+.banner-section{
+    padding: 100px 0;
+    background-image: url(img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner-title{
+    font-size: 48px;
+}
+/* card */
+.cards{
+    padding: 50px 0;
+}
+.card-title, .card-text{
+    color:blue;
+    text-align: center;
+}
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 7px 0px plum;
+}
+.card:hover{
+    box-shadow: 0px 2px 30px 0 px plum;
+}
+.card-link{
+    text-decoration: none;
+    color:rgb(84, 84, 81);
+}
+.footer{
+    background: url(img/footer-bg.jpg) center no-repeat;
+}
+.copy{
+    color:darkgray;
+}
